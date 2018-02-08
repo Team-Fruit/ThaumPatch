@@ -1,0 +1,25 @@
+{
+	"modListVersion": 2,
+	"modList": [
+		{
+			"modid": "tcpotionidpatch",
+			"name": "ThaumcraftPotionIDPatch",
+			"description": "Thaumcraft will allow you to set the potion ID",
+			"mcversion": "${mcversion}",
+			"version": "${version}",
+			"authorList": [
+				"Kamesuta",
+			],
+			"credits": "2018 TeamFruit",
+			"dependants": [],
+			"dependencies": ["Forge", "thaumcraft"],
+			"parent": "",
+			"requiredMods": ["Forge", "thaumcraft"],
+			"logoFile": "",
+			"screenshots": [],
+			"updateUrl": "",
+			"url": "",
+			"useDependencyInformation": true
+		}
+	]
+}
