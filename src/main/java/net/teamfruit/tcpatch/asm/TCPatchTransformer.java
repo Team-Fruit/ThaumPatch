@@ -1,10 +1,10 @@
-package net.teamfruit.tcpotionidpatch.asm;
+package net.teamfruit.tcpatch.asm;
 
 import javax.annotation.Nullable;
 
 import net.minecraft.launchwrapper.IClassTransformer;
 
-public class TCPotionPatchTransformer implements IClassTransformer {
+public class TCPatchTransformer implements IClassTransformer {
 	@Override
 	public @Nullable byte[] transform(final @Nullable String name, final @Nullable String transformedName, final @Nullable byte[] bytes) {
 		if (bytes==null||name==null||transformedName==null)

@@ -1,4 +1,4 @@
-package net.teamfruit.tcpotionidpatch;
+package net.teamfruit.tcpatch;
 
 import javax.annotation.Nonnull;
 

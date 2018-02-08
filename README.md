@@ -1,6 +1,6 @@
-[![Latest Tag](https://img.shields.io/github/tag/Team-Fruit/ThaumcraftPotionIDPatch.svg?label=Latest%20Tag&style=flat)](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/tags) [![Latest Release](https://img.shields.io/github/release/Team-Fruit/ThaumcraftPotionIDPatch.svg?label=Latest Release&style=flat)](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/releases)
+[![Latest Tag](https://img.shields.io/github/tag/Team-Fruit/ThaumcraftPatch.svg?label=Latest%20Tag&style=flat)](https://github.com/Team-Fruit/ThaumcraftPatch/tags) [![Latest Release](https://img.shields.io/github/release/Team-Fruit/ThaumcraftPatch.svg?label=Latest Release&style=flat)](https://github.com/Team-Fruit/ThaumcraftPatch/releases)
 
-# ThaumcraftPotionIDPatch
+# ThaumcraftPatch
 ![Minecraft 1.7.10](https://img.shields.io/badge/Minecraft-1.7.10-yellow.svg?style=flat)
 
 ## Table of Contents
@@ -17,20 +17,20 @@
 
 ## About
 
-ThaumcraftでポーションIDが設定できるようにします。
+Thaumcraftのパッチ
 
 ---
-Thaumcraft will allow you to set the potion ID.
+Thaumcraft patch
 
 ## Contacts
 
-* [GitHub](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch)
+* [GitHub](https://github.com/Team-Fruit/ThaumcraftPatch)
 
 ## License
 
-* ThaumcraftPotionIDPatch
+* ThaumcraftPatch
   - (c) 2017 TeamFruit
-  - [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/blob/master/LICENSE.md)
+  - [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/Team-Fruit/ThaumcraftPatch/blob/master/LICENSE.md)
 * Textures and Models
   - (c) 2017 TeamFruit
   - [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%203.0-yellow.svg?style=flat)](https://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -39,7 +39,7 @@ Thaumcraft will allow you to set the potion ID.
 
 ## Downloads
 
-Downloads can be found on [github](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/releases).
+Downloads can be found on [github](https://github.com/Team-Fruit/ThaumcraftPatch/releases).
 
 ## Usage
 
@@ -47,18 +47,18 @@ Change the package name to anything you want and include these files!
 
 ## Issues
 
-ThaumcraftPotionIDPatch crashing, have a suggestion, found a bug?  Create an issue now!
+ThaumcraftPatch crashing, have a suggestion, found a bug?  Create an issue now!
 
 1. Make sure your issue has not already been answered or fixed and you are using the latest version. Also think about whether your issue is a valid one before submitting it.
-2. Go to [the issues page](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/issues) and click [new issue](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/issues/new)
+2. Go to [the issues page](https://github.com/Team-Fruit/ThaumcraftPatch/issues) and click [new issue](https://github.com/Team-Fruit/ThaumcraftPatch/issues/new)
 3. Enter your a title of your issue (something that summarizes your issue), and then create a detailed description of the issue.
     * The following details are required. Not including them can cause the issue to be closed.
         * Forge version
-        * ThaumcraftPotionIDPatch version
+        * ThaumcraftPatch version
         * Crash log, when reporting a crash (Please make sure to use [pastebin](http://pastebin.com/))
             * Do not post an excerpt of what you consider important, instead:
             * Post the full log
-        * Other mods and their version, when reporting an issue between ThaumcraftPotionIDPatch and another mod
+        * Other mods and their version, when reporting an issue between ThaumcraftPatch and another mod
             * Also consider updating these before submitting a new issue, it might be already fixed
         * A detailed description of the bug or feature
     * To further help in resolving your issues please try to include the follow if applicable:
@@ -73,8 +73,8 @@ Providing as many details as possible does help us to find and resolve the issue
 ## Building
 
 1. Clone this repository via
-  - SSH `git clone git@github.com:Team-Fruit/ThaumcraftPotionIDPatch.git` or
-  - HTTPS `git clone https://github.com/Team-Fruit/ThaumcraftPotionIDPatch.git`
+  - SSH `git clone git@github.com:Team-Fruit/ThaumcraftPatch.git` or
+  - HTTPS `git clone https://github.com/Team-Fruit/ThaumcraftPatch.git`
 2. Setup workspace
   - Decompiled source `gradlew setupDecompWorkspace`
   - Obfuscated source `gradlew setupDevWorkspace`
@@ -89,14 +89,14 @@ Providing as many details as possible does help us to find and resolve the issue
 Before you want to add major changes, you might want to discuss them with us first, before wasting your time.
 If you are still willing to contribute to this project, you can contribute via [Pull-Request](https://help.github.com/articles/creating-a-pull-request).
 
-The [guidelines for contributing](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/blob/master/CONTRIBUTING.md) contain more detailed information about topics like the used code style and should also be considered.
+The [guidelines for contributing](https://github.com/Team-Fruit/ThaumcraftPatch/blob/master/CONTRIBUTING.md) contain more detailed information about topics like the used code style and should also be considered.
 
 Here are a few things to keep in mind that will help get your PR approved.
 
 * A PR should be focused on content.
 * Use the file you are editing as a style guide.
 * Consider your feature.
-  - Is your suggestion already possible using Vanilla + ThaumcraftPotionIDPatch?
+  - Is your suggestion already possible using Vanilla + ThaumcraftPatch?
   - Make sure your feature isn't already in the works, or hasn't been rejected previously.
   - Does your feature simplify another feature of Sing Picture? These changes will not be accepted.
   - If your feature can be done by any popular mod, discuss with us first.
@@ -105,8 +105,8 @@ Getting Started
 
 1. Fork this repository
 2. Clone the fork via
-  * SSH `git clone git@github.com:<your username>/ThaumcraftPotionIDPatch.git` or
-  * HTTPS `git clone https://github.com/<your username>/ThaumcraftPotionIDPatch.git`
+  * SSH `git clone git@github.com:<your username>/ThaumcraftPatch.git` or
+  * HTTPS `git clone https://github.com/<your username>/ThaumcraftPatch.git`
 3. Change code base
 4. Add changes to git `git add -A`
 5. Commit changes to your clone `git commit -m "<summery of made changes>"`
@@ -135,5 +135,5 @@ Thanks to
 
 * Notch et al for Minecraft
 * Lex et al for MinecraftForge
-* Kamesuta for ThaumcraftPotionIDPatch
-* all [contributors](https://github.com/Team-Fruit/ThaumcraftPotionIDPatch/graphs/contributors)
+* Kamesuta for ThaumcraftPatch
+* all [contributors](https://github.com/Team-Fruit/ThaumcraftPatch/graphs/contributors)

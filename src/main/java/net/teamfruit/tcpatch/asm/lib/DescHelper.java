@@ -1,4 +1,4 @@
-package net.teamfruit.tcpotionidpatch.asm.lib;
+package net.teamfruit.tcpatch.asm.lib;
 
 import javax.annotation.Nonnull;
 

@@ -1,4 +1,4 @@
-package net.teamfruit.tcpotionidpatch.asm;
+package net.teamfruit.tcpatch.asm;
 
 import java.util.Map;
 
@@ -6,11 +6,11 @@ import javax.annotation.Nullable;
 
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 
-public class TCPotionPatchCorePlugin implements IFMLLoadingPlugin {
+public class TCPatchCorePlugin implements IFMLLoadingPlugin {
 	@Override
 	public @Nullable String[] getASMTransformerClass() {
 		return new String[] {
-				TCPotionPatchTransformer.class.getName()
+				TCPatchTransformer.class.getName()
 		};
 	}
 

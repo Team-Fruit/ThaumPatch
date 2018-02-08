@@ -6,7 +6,7 @@
  * Code released under the MIT license
  * https://github.com/OpenMods/OpenModsLib/blob/master/LICENSE
  */
-package net.teamfruit.tcpotionidpatch.asm.lib;
+package net.teamfruit.tcpatch.asm.lib;
 
 import javax.annotation.Nonnull;
 
