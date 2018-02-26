@@ -257,11 +257,29 @@ processResources {
     }
 }
 
+def urlFile = { url, name ->
+    File file = new File("$buildDir/download/${name}.jar")
+    file.parentFile.mkdirs()
+    if (!file.exists()) {
+        new URL(url).withInputStream { downloadStream ->
+            file.withOutputStream { fileOut ->
+                fileOut << downloadStream
+            }
+        }
+    }
+    files(file.absolutePath)
+}
+
 repositories {
     jcenter()
     maven {
         name = 'CurseForge'
         url = 'https://minecraft.curseforge.com/api/maven/'
+    }
+    ivy {
+        name 'ThaumCraft 4 API'
+        ivyPattern 'http://example.com/[module](.[ext])'
+        artifactPattern 'http://puu.sh/[module](.[ext])'
     }
 }
 
@@ -273,6 +291,8 @@ idea {
 }
 
 dependencies {
+    compile 'TC:zwjw4/bf94b16c89'
+
     shade fileTree(dir: 'libs/shade', include: '*.jar')
 }
 
