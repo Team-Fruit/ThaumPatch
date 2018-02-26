@@ -34,6 +34,15 @@ public class TCPatchTransformer implements IClassTransformer {
 				}
 			});
 
+		if (transformedName.equals("thaumcraft.common.tiles.TileInfusionMatrix"))
+			return VisitorHelper.apply(bytes, name, new TransformProvider(ClassWriter.COMPUTE_FRAMES) {
+				@Override
+				public ClassVisitor createVisitor(final String name, final ClassVisitor cv) {
+					Log.log.info(String.format("Patching thaumcraft.common.tiles.TileInfusionMatrix (class: %s)", name));
+					return new TCTileInfusionMatrixVisitor(name, cv);
+				}
+			});
+
 		return bytes;
 	}
 }
