@@ -1,0 +1,21 @@
+
+tcpatch.config.potionids=Potion ID Settings
+tcpatch.config.potionids.tooltip=Settings of Thaumcraft potion IDs. (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_flux_taint=1. Flux Taint
+tcpatch.config.potionids.potion_flux_taint.tooltip=Potion id of PotionFluxTaint, order=1 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_vis_exhaust=2. Vis Exhaust
+tcpatch.config.potionids.potion_vis_exhaust.tooltip=Potion id of PotionVisExhaust, order=2 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_infectious_vis_exhaust=3. Infectious Vis Exhaust
+tcpatch.config.potionids.potion_infectious_vis_exhaust.tooltip=Potion id of PotionInfectiousVisExhaust, order=3 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_unnatural_hunger=4. Unnatural Hunger
+tcpatch.config.potionids.potion_unnatural_hunger.tooltip=Potion id of PotionUnnaturalHunger, order=4 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_warp_ward=5. Warp Ward
+tcpatch.config.potionids.potion_warp_ward.tooltip=Potion id of PotionWarpWard, order=5 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_death_gaze=6. Death Gaze
+tcpatch.config.potionids.potion_death_gaze.tooltip=Potion id of PotionDeathGaze, order=6 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_blurred_vision=7. Blurred Vision
+tcpatch.config.potionids.potion_blurred_vision.tooltip=Potion id of PotionBlurredVision, order=7 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_sun_scorned=8. Sun Scorned
+tcpatch.config.potionids.potion_sun_scorned.tooltip=Potion id of PotionSunScorned, order=8 (invalid with negative value, disabled=-1, uninitialized=-2)
+tcpatch.config.potionids.potion_thaumarhia=9. Thaumarhia
+tcpatch.config.potionids.potion_thaumarhia.tooltip=Potion id of PotionThaumarhia, order=9 (invalid with negative value, disabled=-1, uninitialized=-2)
