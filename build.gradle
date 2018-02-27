@@ -498,7 +498,6 @@ if (sec_curseforge_key!=null&&project.isProperty('extra_curseforge_id')) {
 	curseforge {
 		tasks.curseforge.enabled = !mod_autorelease && project.name!=mod_commonname
 
-		tasks.curseforge.dependsOn 'reobfShadowJar'
 		tasks.curseforge.mustRunAfter 'signJars'
 		apiKey = sec_curseforge_key
 		project {
