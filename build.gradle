@@ -371,7 +371,7 @@ artifacts {
 	archives shadowJar
     archives devJar
     archives sourceJar
-    archives apiJar
+    //archives apiJar
 }
 
 [jar, shadowJar, devJar, sourceJar, apiJar]*.destinationDir = mod_artifacts_dir
@@ -455,7 +455,7 @@ publishing {
 				artifact p.jar
 				artifact p.devJar
 				artifact p.sourceJar
-				artifact p.apiJar
+				//artifact p.apiJar
 			}
 		}
 	}
@@ -511,7 +511,7 @@ if (sec_curseforge_key!=null&&project.isProperty('extra_curseforge_id')) {
 			mainArtifact(shadowJar) {
 				displayName = "${shadowJar.baseName}-${shadowJar.version}"
 			}
-			[/*jar, */devJar, sourceJar, apiJar].each { jar ->
+			[/*jar, */devJar, sourceJar/*, apiJar*/].each { jar ->
 				addArtifact(jar) {
 					displayName = "${jar.baseName}-${jar.version}-${jar.classifier}"
 				}
