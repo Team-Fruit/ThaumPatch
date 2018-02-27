@@ -209,6 +209,8 @@ configurations {
     compile.extendsFrom shade
 }
 
+version = "${project.version_minecraft}-${mod_version}"
+
 [compileJava, compileApiJava, compileTestJava]*.options*.encoding = 'UTF-8'
 sourceCompatibility = targetCompatibility ='1.6'
 
